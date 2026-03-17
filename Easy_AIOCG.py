@@ -223,7 +223,7 @@ def plotAIOCG(df_molar, kwarg, ipath, ax):
     y = y+29.3133
     
     size = 5000
-    mw=10
+    mw=5 #Adjust the width of the bar code here
     ax.imshow(img)
 
     for i in range(len(df_molar)):
